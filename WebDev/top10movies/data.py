@@ -2,7 +2,7 @@ import requests
 from collections import namedtuple
 import pprint
 
-APIKEY = "1fd1e88cda34e0219d47cfb2b0c57245"
+APIKEY = "#"
 APIREAD = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZmQxZTg4Y2RhMzRlMDIxOWQ0N2NmYjJiMGM1NzI0NSIsInN1YiI6IjYwMjU1YTEwNmEzNDQ4MDAzZDEyZjUzMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zptZo1oYD9YNf_EF1b77VYmhFwjZvh8ZA-eL9g93yvA"
 
 SEARCHURL = "https://api.themoviedb.org/3/search/movie"
