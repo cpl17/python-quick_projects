@@ -9,17 +9,13 @@ load_dotenv()
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla"
 
-ALPHA_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
-
 alpha_api_key = os.getenv("ALPHA_API_KEY")
 news_api_key = os.getenv("NEWS_API_KEY")
 sms_api_key = os.getenv("SMS_API_KEY")
 
 
-account_sid = "AC4861eebc683aecd86aa36599e7d3ef6b"
-auth_token = "fc1e4687d20e2f639810ef5dcd0b7a43"
+account_sid = "#"
+auth_token = "#"
 
 
 # Function for getting news 
